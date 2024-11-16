@@ -46,9 +46,10 @@
 }
 
 .gallery {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
-  text-align: center;
 }
 
 .form {
@@ -103,4 +104,19 @@
 .content span {
   font-size: 12px;
   color: #333;
+}
+
+#load-more {
+  display: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3a6df0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#load-more:hover {
+  background-color: #325ac0;
 }
